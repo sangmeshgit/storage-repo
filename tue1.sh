@@ -10,14 +10,14 @@ echo enter 4th number
 read $4
 if [ $1 -ge $2 -a $1 -ge $3 -a $a -ge $4 ]
 then
-	echo $a is the greatest number among 4 entered number
+	echo "$a is the greatest number among 4 entered number"
 elif [ $2 -ge $1 -a $2 -ge $3 -a $2 -ge $4 ]
 then
-	echo $b is greatest number among 4 entered number
+	echo "$b is greatest number among 4 entered number"
 elif [ $3 -ge $1 -a $3 -ge $2 -a $3 -ge $4 ]
 then
-	echo $3 is greatest number among 4 entered number
+	echo "$3 is greatest number among 4 entered number"
 else
-	echo $4 is greatest number among 4 entered number
+	"echo $4 is greatest number among 4 entered number"
 fi
 
