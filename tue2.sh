@@ -11,4 +11,3 @@ then
 else
 	echo it is a directory
 fi
-echo "github-webhook trigger"
