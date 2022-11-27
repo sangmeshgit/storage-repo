@@ -1,23 +1,23 @@
 #!/bin/bash
 echo we will find greatest of any four number
 echo enter 1st number
-read a
+read $1
 echo enter 2nd number
-read b
+read $2
 echo enter 3rd number
-read c
+read $3
 echo enter 4th number
-read d
-if [ $a -ge $b -a $a -ge $c -a $a -ge $d ]
+read $4
+if [ $1 -ge $2 -a $1 -ge $3 -a $a -ge $4 ]
 then
 	echo $a is the greatest number among 4 entered number
-elif [ $b -ge $a -a $b -ge $c -a $b -ge $d ]
+elif [ $2 -ge $1 -a $2 -ge $3 -a $2 -ge $4 ]
 then
 	echo $b is greatest number among 4 entered number
-elif [ $c -ge $a -a $c -ge $b -a $c -ge $d ]
+elif [ $3 -ge $1 -a $3 -ge $2 -a $3 -ge $4 ]
 then
-	echo $c is greatest number among 4 entered number
+	echo $3 is greatest number among 4 entered number
 else
-	echo $d is greatest number among 4 entered number
+	echo $4 is greatest number among 4 entered number
 fi
 
