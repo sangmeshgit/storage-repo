@@ -11,4 +11,4 @@ then
 else
 	echo it is a directory
 fi
-echo github-webhook trigger
+echo "github-webhook trigger"
