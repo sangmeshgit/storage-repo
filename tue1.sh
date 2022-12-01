@@ -16,4 +16,4 @@ then
 else
 	echo "$d is greatest number among above 4 entered number"
 fi
-echo ram ram ji
+echo ram ram ri anna
